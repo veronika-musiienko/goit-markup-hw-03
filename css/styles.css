@@ -228,7 +228,12 @@ overflow: hidden;
 .team {
     background-color: #F4F4FD;
 }
-
+.team-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    list-style: none;
+}
 .team-title {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
@@ -249,6 +254,9 @@ overflow: hidden;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+.team-item {
+    text-align: center;
 }
 .portfolio-container {
     padding: 32px 16px;
