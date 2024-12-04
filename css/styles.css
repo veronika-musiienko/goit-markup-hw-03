@@ -323,17 +323,15 @@ overflow: hidden;
     column-gap: 24px;
     row-gap: 48px;
     list-style: none;
-    text-align: left;
+    text-align: center;
     margin-left: 156px;
     border: 0px 1px 1px 1px #e7e9fc;
-    max-width: 360px;
+    
 
 
 }
-.team-img {
-    width: 100%;
-    display: block;
-}
+
+
 .portfolio-item {
     width: calc((100% - 48px)/3);
 }
