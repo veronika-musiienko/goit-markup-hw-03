@@ -51,6 +51,8 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 40px;
+    margin-left: 332px;
 }
 
 .nav {
@@ -58,6 +60,13 @@ a {
     align-items: center;
     justify-content: space-between;
     flex-grow: 1;
+}
+.nav-list {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 .nav-logo {
     font-family: "Raleway", sans-serif;
@@ -137,7 +146,7 @@ img {
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    margin: 496px;
+    width: 496px;
 }
 .button {
     font-size: 16px;
@@ -153,6 +162,7 @@ img {
     min-height: 56px;
     border: 1px solid transparent;
     margin: 0 auto;
+    margin-top: 48px;
 }
 
 .button:hover,
@@ -233,6 +243,7 @@ overflow: hidden;
     justify-content: center;
     flex-wrap: wrap;
     column-gap: 24px;
+    list-style: none;
 
 }
 .team-title {
@@ -282,6 +293,7 @@ overflow: hidden;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+    list-style: none;
 
 }
 .portfolio-item {
