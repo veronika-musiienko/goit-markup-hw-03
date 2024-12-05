@@ -29,6 +29,7 @@ margin: 0 auto;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-right: 76px
 }
 .logo-home-text {
     color: #2E2F42;
@@ -60,7 +61,7 @@ margin: 0 auto;
 }
 .home-link {
     letter-spacing: 0.02em;
-    padding: 0 40px;
+    padding: 24px 0;
 }
 
 .home-link:hover,
@@ -186,7 +187,7 @@ img {
 }
 
 
-.feature {
+.features {
     padding: 120px 0;
 }
 
@@ -223,12 +224,16 @@ overflow: hidden;
     color: #2e2f42;
     
 }
+.feature-heading {
+    margin-bottom: 8px;
+}
 .features-list .features-item .feature-heading {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+
 }
 .features-list .features-item .feature-description {
     font-size: 16px;
@@ -236,7 +241,7 @@ overflow: hidden;
     letter-spacing: 0.02em;
     color: #434455;
     font-weight: 400;
-    margin-top: 8px;
+   
 }
 
 
@@ -303,8 +308,8 @@ overflow: hidden;
     letter-spacing: 0.02em;
 }
 .team-item {
+    width: calc((100% - 72px)/4);
     text-align: center;
-    width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
 }
 
