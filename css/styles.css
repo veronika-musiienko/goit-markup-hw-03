@@ -156,7 +156,7 @@ img {
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    width: 496px;
+    max-width: 496px
     margin: 0;
     justify-content: center;
 }
@@ -171,12 +171,13 @@ img {
     padding: 16px 32px;
     border-radius: 4px;
     min-width: 169px;
-    min-height: 56px;
-    border: 1px solid transparent;
+    height: 56px;
+    border: none;
     margin: 0 auto;
     margin-top: 48px;
     text-align: center;
     justify-content: center;
+    display: block;
 }
 
 .button:hover,
