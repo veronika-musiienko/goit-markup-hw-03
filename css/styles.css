@@ -276,8 +276,8 @@ overflow: hidden;
     flex-wrap: wrap;
     list-style: none;
     text-align: center;
-    padding: 32px 16px;
-    margin-bottom: 32px;
+    padding: 0;
+    margin: 0;
     gap: 24px;
     
 
@@ -309,12 +309,11 @@ overflow: hidden;
 }
 .team-item {
     width: calc((100% - 72px) / 4);
-    
-}
-.team-item {
     text-align: center;
     border-radius: 0px 0px 4px 4px;
+    
 }
+
 .portfolio {
     padding-top: 120px;
     padding-bottom: 120px;
