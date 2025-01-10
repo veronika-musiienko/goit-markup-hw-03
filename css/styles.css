@@ -26,7 +26,7 @@ margin: 0 auto;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    margin-right: 76px
+    
 }
 .logo-home-text {
     color: #2E2F42;
@@ -35,8 +35,7 @@ margin: 0 auto;
     display: flex;
     gap: 40px;
     list-style: none;
-    margin: 0;
-    padding-left: 76px;
+    margin-left: 76px;
 }
 .nav-link {
     font-family: 'Roboto', sans-serif;
@@ -47,7 +46,7 @@ margin: 0 auto;
     line-height: 1.5;
     letter-spacing: 0.02em;
     display: block;
-    padding: 24px 0;
+    padding: 24px 0px;
     display: flex;
     justify-content: center;
 
@@ -254,7 +253,6 @@ overflow: hidden;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    padding: 72px;
 }
 .team {
     background-color: #F4F4FD;
@@ -359,7 +357,6 @@ display: block;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    margin-top: 32px;
     margin-bottom: 8px
 }
 
