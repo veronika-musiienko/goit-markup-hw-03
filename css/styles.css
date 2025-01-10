@@ -26,6 +26,7 @@ margin: 0 auto;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-right: 76px;
     
 }
 .logo-home-text {
@@ -35,7 +36,6 @@ margin: 0 auto;
     display: flex;
     gap: 40px;
     list-style: none;
-    margin-left: 76px;
 }
 .nav-link {
     font-family: 'Roboto', sans-serif;
